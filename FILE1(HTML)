@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nana's Personal Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hello, I'm Nana!</h1>
+    <p>From Accra, Ghana 🌍</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I love learning web development, exploring Accra, and sharing ideas.</p>
+    <img src="C:\Users\Saabtee\OneDrive\Pictures" alt="Nana's photo">
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: nana@example.com</p>
+    <button id="alertBtn">Say Hi!</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+JHJH
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nana's Personal Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero / Header -->
+  <header>
+    <h1>Hello, I'm Nana!</h1>
+    <p>Web Enthusiast & Learner from Accra, Ghana 🌍</p>
+  </header>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm passionate about learning web development, exploring Accra, and building simple, useful things online. Currently exploring HTML, CSS, JavaScript, and dreaming of creating my first full project!</p>
+    <img src="C:\Users\Saabtee\OneDrive\Pictures" alt="Nana's photo" class="profile-img">
+  </section>
+
+  <!-- New: Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <span class="skill-icon">🌐</span>
+        <h3>HTML</h3>
+        <p>Building structure & content</p>
+      </div>
+      <div class="skill-item">
+        <span class="skill-icon">🎨</span>
+        <h3>CSS</h3>
+        <p>Styling & making things beautiful</p>
+      </div>
+      <div class="skill-item">
+        <span class="skill-icon">⚡</span>
+        <h3>JavaScript</h3>
+        <p>Adding interactivity & logic</p>
+      </div>
+      <div class="skill-item">
+        <span class="skill-icon">📱</span>
+        <h3>Responsive Design</h3>
+        <p>Mobile-friendly layouts</p>
+      </div>
+      <!-- Add more as you learn! e.g. Git, Tailwind, React later -->
+    </div>
+  </section>
+
+  <!-- New: Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Personal Website (This One!)</h3>
+        <p>My first live site built with HTML, CSS & a bit of JS. Shows who I am and what I'm learning.</p>
+        <p><small>Technologies: HTML, CSS, JavaScript</small></p>
+        <a href="#" class="project-link">View Live (You're here!)</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Simple Counter App</h3>
+        <p>A fun click counter I built to practice JavaScript events and DOM manipulation.</p>
+        <p><small>Technologies: HTML, CSS, JavaScript</small></p>
+        <a href="#" class="project-link">See on GitHub (coming soon)</a>
+      </div>
+
+      <!-- Add your real projects here as you build them -->
+      <!-- Example future one: <div class="project-card"> ... </div> -->
+    </div>
+  </section>
+
+  <!-- New: Links / Social Section -->
+  <section id="links">
+    <h2>Connect with Me</h2>
+    <div class="social-links">
+      <a href="https://wa.me/233572225970?text=Hi%20Nana!" class="social-btn whatsapp">WhatsApp</a>
+      <a href="mailto:nana@example.com" class="social-btn email">Email Me</a>
+      <a href="https://instagram.com/daverick-official" class="social-btn instagram">Instagram</a>
+      <a href="https://github.com/yourusername" class="social-btn github">GitHub</a>
+      <a href="https://linkedin.com/in/daverick danquah" class="social-btn linkedin">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Contact (kept from before) -->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p>Questions? Ideas? Just want to say hi?</p>
+    <button id="alertBtn">Say Hi!</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Nana from Accra • Made with ❤️ & curiosity</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
